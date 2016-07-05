@@ -124,4 +124,4 @@ def delete_post(request, post_id):
 
     messages.success(request, "Your post was deleted!")
 
-    return redirect(reverse('thread', thread_id))
+    return redirect(reverse('thread', args={thread_id}))

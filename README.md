@@ -1,8 +1,10 @@
-PayPal Subscriptions Test
+Django forum app
 
-- Included 'paypal.standard.ipn' in Installed apps
-- Created a 'magazines' app and included it in Installed apps
-- Created Magazine and Purchase classes
-- Created a custom template tag in products/templatetags/magazine_extras.py
-- Created a magazines.html template, a view and added the URL to render the subscriptions
-- Used login_required decorator from accounts views to ensure that subscriptions come up only after the user has logged in
+- extended the User model to add Threads and Posts
+- collecting data from multiple forms in one go
+- added Django-debug-toolbar for debbuging
+- linked in JavaScript to enable tinymce text editing
+- enabled site functionality based on a user login status (is_superuser)
+- used template tags to provide stats for users
+- added font-awesome to add edit and delete buttons on posts
+
